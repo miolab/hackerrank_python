@@ -1,8 +1,7 @@
 def print_full_name(a, b):
     a, b = str(first_name), str(last_name)
-    str_hd = "Hello "
-    str_tl = "! You just delved into python."
-    print(str_hd + a + " " + b + str_tl)
+    print(f"Hello {a} {b}! You just delved into python.")
+
 
 if __name__ == '__main__':
     first_name = input()
